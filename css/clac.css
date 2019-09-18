@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(to right, aquamarine, aqua,aqua);
+}
+    
+#calculator {
+    border:none;
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    border-radius: 20px;
+    text-align: left;
+    background-color: greenyellow;
+    box-shadow:10px 10px 20px 10px pink;
+}
+
+input:focus {
+    outline-color: pink;
+}
+
+ h1 {
+     display: block;
+    background-color:aqua;
+     text-align: center;
+     padding: 10px 0;
+
+     margin: 0;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+hr {
+    margin: 0 0 15px 0;
+    border: 5px solid pink;
+}
+
+label, input, select {
+    position: relative;
+    margin: 10px 10px;
+}
+
+select {
+    
+    border: 1px solid pink;
+    
+}
+
+select:focus {
+    outline: none;
+}

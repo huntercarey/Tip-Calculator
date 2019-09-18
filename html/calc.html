@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../css/clac.css" rel="stylesheet">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+    <div id="calculator">
+        <h1>Tip Calculator</h1>
+        <hr>
+
+        <!-- Container for the user inputs and the submit button -->
+        <div>
+            <form>
+                <label for="billAmount">How much was your bill?</label>
+
+                <br>
+
+                <input id="billAmount" type="text" name="billAmount" placeholder="Bill Amount" value="$">
+
+                <br>
+
+                <label for="dropdown">How was your service?</label>
+
+                <br>
+
+                <select id="dropdown" name="service">
+                    <option value="" selected>--Choose an option--</option>
+                    <option value="">30%</option>
+                    <option value="">20%</option>
+                    <option value="">10%</option>
+                    <option value="">0%</option>
+                </select>
+                <br>
+                <label>How many people are sharing the bill?</label>
+                <br>
+                <input type="number" max="10" min="0" value="4" step=".5">
+                <br>
+
+            </form>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="../js/calc.js"></script>
+</body>
+
+</html>
