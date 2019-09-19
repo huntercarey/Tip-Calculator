@@ -21,7 +21,7 @@
 
                 <br>
 
-                <input id="billAmount" type="text" name="billAmount" placeholder="Bill Amount">
+                <input id="billAmount" type="text" name="billAmount" placeholder="Bill Amount" value="50">
 
                 <br>
 
@@ -30,19 +30,34 @@
                 <br>
 
                 <select id="dropdown" name="service">
-                    <option value="0" selected disabled>--Choose an option--</option>
+                    <option value="0" disabled>--Choose an option--</option>
                     <option value=".3">30%</option>
                     <option value=".2">20%</option>
-                    <option value="1.5">15%</option>
+                    <option selected value=".15">15%</option>
                     <option value=".1">10%</option>
                     <option value=".05">5%</option>
                 </select>
+
                 <br>
+
                 <label>How many people are sharing the bill?</label>
+
                 <br>
-                <input type="number" max="10" min="0" value="4" step=".5">
+
+                <input id="numOfPeople" type="number" min="0" value="4" step="1">
+
                 <br>
-                <input type="button" id="calculateTip" value="Submit">
+
+                <input type="button" id="submit" value="Submit"></button>
+
+                <!-- Container to hold the tip information -->
+                <div id="feedBack">
+                    <!-- <sup>$</sup><span></span> -->
+                </div>
+
+            
+
+
 
             </form>
         </div>
