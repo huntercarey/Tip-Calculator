@@ -62,7 +62,7 @@ label {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#dropdown {
+#serviceQuality {
     /* outline-color: pink;
     border: 5px solid pink;
      */
@@ -105,12 +105,7 @@ input[type=button]:focus {
     margin: 10px auto;
     height: 18px;
     text-align: center;
-    font-size: 15pt;
+    font-size: 10pt;
     font-weight: bolder;
     font-family: monospace;
-}
-
-p {
-    font-family:monospace;
-    font-weight: bolder;
 }
