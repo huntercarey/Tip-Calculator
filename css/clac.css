@@ -13,8 +13,20 @@ body {
     box-shadow:10px 10px 20px 10px pink;
 }
 
-input:focus {
+input[type=text], input[type=number] {
+    border-radius: 10px;
+}
+
+input[type=number] {
+    width: 130px;
+}
+
+input[type=number]:focus, input[type=text]:focus {
     outline-color: pink;
+}
+
+input:hover {
+    background-color: greenyellow;
 }
 
  h1 {
@@ -42,15 +54,43 @@ hr {
 
 label, input, select {
     position: relative;
-    margin: 10px 10px;
+    margin: 20px 10px;
 }
 
-select {
-    
-    border: 1px solid pink;
-    
+#dropdown {
+    /* outline-color: pink;
+    border: 5px solid pink;
+     */
+     /* width: 100%; */
+  padding: 16px 20px;
+  border: none;
+  background-color: #f1f1f1;
 }
 
 select:focus {
+    outline-color: pink;
+}
+
+input[type=button]{
+    display: block;
+    background-color: aqua;
+    color: black;
+    margin: 150px auto;
+    font-size: 20pt;
+    border: 2px groove pink;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px grey;
+}
+
+input[type=button]:hover {
+    background-color: pink;
+    box-shadow: 5px 5px 5px grey;
+    
+}
+
+input[type=button]:focus {
     outline: none;
 }
